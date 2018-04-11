@@ -28,8 +28,17 @@ For twitter API documentation, we follow : https://developer.twitter.com/en/docs
     * `npm start`
 * Go to [backend](RootFolder/backend) folder
     * `npm install`
-    * `gulp develop`
+    * `gulp develop
     
+# Current Status
+
+*`Currently the application can redirect a user to login to his/her Twitter account.
+* Application correctly accuries token from app.twitter.com and authenticates the Twitter user.
+* An error occurs when trying fetch tweets using tweet search api. 
+Response from Twitter API:
+Error Code: 215
+Error Message: Bas Authentication Error
+ 
 # License
 
 DemoTwitterApp is released under [MIT License](https://opensource.org/licenses/MIT).
