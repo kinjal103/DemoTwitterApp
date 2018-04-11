@@ -22,7 +22,7 @@ For twitter API documentation, we follow : https://developer.twitter.com/en/docs
 * Get your own secrets and keys from https://apps.twitter.com/
 * Put `http://localhost:3000/twitter-callback` as the callback URL
 * Start MongoDB - our application expects that there is `twitter-demo` database in MongoDB
-* Put Twitter consumer secret, consumer key, access token secret and access token key in [twitter.config.js](RootFolder/backend/twitter.config.js)
+* Put Twitter consumer secret, consumer key, access token secret and access token key in [twitter.config.js] (RootFolder/backend/twitter.config.js) and (RootFOlder/frontend/src/twitter.config.js)
 * Go to [frontend](RootFolder/frontend) folder
     * `npm install`
     * `npm start`
